@@ -1,9 +1,9 @@
 import styled from "styled-components";
 export const StyleHeader = styled.div`
-  background-color: #ddd;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  padding: 40px 0 ;
 `;
 
 export const Wrapper = styled.div`
