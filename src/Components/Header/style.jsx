@@ -10,18 +10,29 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
 `;
 
+export const Logo = styled.a`
+color: white;
+background: black;
+padding: 7px;
+display: inline-block;
+border-radius: 7px;
+cursor: pointer;
+text-decoration: none;
+`
+;
 export const Listas = styled.ul`
   list-style: none;
   display: flex;
-  gap: 25px;
 
   li a {
-      color: #0c0b0b;
+      color:  rgba(17,24,39,.7);
       text-decoration: none;
+      padding: 1rem;
+      font-weight: 500;
   }
 `;

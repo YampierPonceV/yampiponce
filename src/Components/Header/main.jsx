@@ -1,9 +1,9 @@
-import { StyleHeader, Wrapper, Listas } from "./style";
+import { StyleHeader, Wrapper, Listas, Logo } from "./style";
 const Header = () => {
   return (
     <StyleHeader>
       <Wrapper>
-        <section>YP</section>
+        <section className="logo"><Logo href="/">YampierPonce</Logo></section>
         <section>
           <nav>
             <Listas>
