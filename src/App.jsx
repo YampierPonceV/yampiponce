@@ -2,6 +2,7 @@
 import './App.css'
 import Header from './Components/Header/main'
 import About from './Components/Profile/main'
+import Recientes from './Components/Recientes/main'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <About />
+      <Recientes />
     </div>
   )
 }
