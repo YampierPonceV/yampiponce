@@ -1,12 +1,15 @@
-import { ContainerRecientes } from "./style"
+import Proyect from "../Proyect/main";
+import { ContainerRecientes, P } from "./style";
 
 const Recientes = () => {
-    return(
-        <ContainerRecientes>
-            <h2>Comienza a aprender</h2>
-            <p>📰  Artículos más recientes</p>
-        </ContainerRecientes>
-    )
-}
+  return (
+    <ContainerRecientes>
+      <h2>Proyectos</h2>
+      <P>📰 Proyectos más recientes</P>
+      <hr></hr>
+      <Proyect />
+    </ContainerRecientes>
+  );
+};
 
-export default Recientes
+export default Recientes;
